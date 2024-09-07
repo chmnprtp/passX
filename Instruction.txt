@@ -1,0 +1,59 @@
+npm create vite@latest
+
+npm i // inside passX
+
+npm run dev // to run project
+
+https://bg.ibelick.com/  // for background color
+
+https://tailwindcss.com/docs/guides/vite  // to install in vite
+
+npm install -D tailwindcss postcss autoprefixer  // installing tailwind
+
+npx tailwindcss init -p  // created confing file
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}                               // change content of tailwind.config.js
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;            // add this in index.css
+
+create folder in src named component and inside component create a file navbar.jsx
+
+inside navbar.js write rfce press enter // it creates boilerplate code
+remove <div> with <Nav>
+
+
+ref useRef
+
+onclick()
+
+useState()
+
+spread operator
+
+localstorage
+
+JSON.parse
+
+useEffect
+
+react Toastify
+
+uuid
+
+
+
+
+
+What is vite?
